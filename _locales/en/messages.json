@@ -1,0 +1,32 @@
+{
+  "extensionName": {
+    "message": "Quick Search"
+  },
+  "extensionDescription": {
+    "message": "One-click search in a new tab using a customizable search engine URL template."
+  },
+  "searchPlaceholder": {
+    "message": "Enter keywords..."
+  },
+  "searchButton": {
+    "message": "Search"
+  },
+  "settingsToggle": {
+    "message": "⚙️ Configure search engine"
+  },
+  "urlTemplateLabel": {
+    "message": "Search URL template (use %s for keywords):"
+  },
+  "urlTemplatePlaceholder": {
+    "message": "e.g. https://github.com/search?q=%s"
+  },
+  "saveButton": {
+    "message": "Save"
+  },
+  "savedButton": {
+    "message": "Saved!"
+  },
+  "errorInvalidTemplate": {
+    "message": "Invalid template: must start with http:// or https:// and contain the %s placeholder."
+  }
+}

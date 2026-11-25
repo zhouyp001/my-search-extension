@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 - 快速搜索</title>
+<style>
+  body {
+    max-width: 760px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.7;
+    color: #24292f;
+    background: #fff;
+  }
+  h1 {
+    border-bottom: 1px solid #d0d7de;
+    padding-bottom: 12px;
+  }
+  h2 {
+    margin-top: 32px;
+    font-size: 1.15em;
+  }
+  code {
+    background: #f6f8fa;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  .meta {
+    color: #656d76;
+    font-size: 0.9em;
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid #d0d7de;
+    color: #656d76;
+    font-size: 0.85em;
+  }
+</style>
+</head>
+<body>
+<h1>隐私政策</h1>
+<p class="meta">
+  适用扩展：快速搜索（Quick Search）<br>
+  生效日期：2026-11-25　最后更新：2026-11-25
+</p>
+
+<h2>1. 概述</h2>
+<p>
+  本扩展是一款浏览器搜索快捷工具。核心原则是：<strong>不收集、不上传、不分享任何个人数据</strong>。
+  扩展没有后端服务器，所有逻辑均在您的浏览器本地运行。
+</p>
+
+<h2>2. 我们收集的信息</h2>
+<p><strong>无。</strong>本扩展不收集任何个人信息、浏览记录、搜索历史、设备标识或使用统计。</p>
+
+<h2>3. 本地存储</h2>
+<p>
+  扩展使用浏览器提供的 <code>chrome.storage.local</code> API，在<strong>您的设备本地</strong>保存一项配置：
+  您自定义的搜索 URL 模板。该数据：
+</p>
+<ul>
+  <li>仅保存在您的浏览器本地，不会同步到我们的服务器（我们没有服务器）；</li>
+  <li>不会被我们读取或传输；</li>
+  <li>可随时通过修改配置或卸载扩展来清除。</li>
+</ul>
+
+<h2>4. 搜索请求与第三方</h2>
+<p>
+  当您执行搜索时，扩展会将<strong>您输入的关键词</strong>拼接到您配置的搜索 URL 中，并在新标签页打开该地址。
+  这意味着关键词会被发送到<strong>您所选择的搜索引擎</strong>（默认是 GitHub）。
+</p>
+<p>
+  该搜索引擎的数据处理行为受其自身隐私政策约束，与本扩展无关。建议您在使用前了解所配置搜索引擎的隐私条款。
+</p>
+
+<h2>5. 权限说明</h2>
+<p>本扩展仅申请以下权限：</p>
+<ul>
+  <li><code>storage</code>：用于在本地保存您的自定义搜索 URL 模板。</li>
+</ul>
+<p>扩展不申请访问您的浏览历史、网页内容、标签页信息或任何其他敏感权限。</p>
+
+<h2>6. 数据共享与出售</h2>
+<p>我们不共享、不出售、不转让任何用户数据，因为我们根本不收集数据。</p>
+
+<h2>7. 儿童隐私</h2>
+<p>本扩展不面向 13 岁以下儿童，也不会有意收集儿童信息。</p>
+
+<h2>8. 政策变更</h2>
+<p>
+  若本政策发生变更，我们将更新本页面顶部的“最后更新”日期。
+  重大变更会在扩展商店页面或项目仓库中公告。
+</p>
+
+<h2>9. 联系方式</h2>
+<p>
+  如有隐私相关疑问，请通过项目仓库提交 Issue：<br>
+  <a href="https://github.com/zhouyp001/my-search-extension/issues">
+    github.com/zhouyp001/my-search-extension/issues
+  </a>
+</p>
+
+<footer>© 2026 zhouyp001 · 本项目基于 MIT 许可证开源</footer>
+</body>
+</html>

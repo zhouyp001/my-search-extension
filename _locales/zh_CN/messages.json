@@ -1,0 +1,32 @@
+{
+  "extensionName": {
+    "message": "快速搜索"
+  },
+  "extensionDescription": {
+    "message": "点击图标输入关键词，使用自定义搜索引擎在新标签页中搜索。"
+  },
+  "searchPlaceholder": {
+    "message": "输入关键词搜索..."
+  },
+  "searchButton": {
+    "message": "搜索"
+  },
+  "settingsToggle": {
+    "message": "⚙️ 配置搜索方式"
+  },
+  "urlTemplateLabel": {
+    "message": "搜索 URL 模板（使用 %s 代表关键词）："
+  },
+  "urlTemplatePlaceholder": {
+    "message": "例如：https://github.com/search?q=%s"
+  },
+  "saveButton": {
+    "message": "保存配置"
+  },
+  "savedButton": {
+    "message": "已保存！"
+  },
+  "errorInvalidTemplate": {
+    "message": "模板无效：必须以 http:// 或 https:// 开头，且包含 %s 占位符。"
+  }
+}
