@@ -19,7 +19,7 @@
 
 ### 从商店安装
 
-- Edge 加载项商店：`<待发布后填写链接>`
+- Edge 加载项商店：`https://microsoftedge.microsoft.com/addons/detail/%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2/dcbphjiekbcihdkidebkgalegbdphifp`
 
 ### 开发者模式加载（本地调试）
 
